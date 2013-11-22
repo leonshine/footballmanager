@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2A40A8183FB4B300500B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2A40A7183FB4B300500B12 /* Foundation.framework */; };
+		1E2A40AA183FB4B300500B12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2A40A9183FB4B300500B12 /* CoreGraphics.framework */; };
+		1E2A40AC183FB4B300500B12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2A40AB183FB4B300500B12 /* UIKit.framework */; };
+		1E2A40B2183FB4B300500B12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E2A40B0183FB4B300500B12 /* InfoPlist.strings */; };
+		1E2A40B4183FB4B300500B12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A40B3183FB4B300500B12 /* main.m */; };
+		1E2A40B8183FB4B300500B12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A40B7183FB4B300500B12 /* AppDelegate.m */; };
+		1E2A40BB183FB4B300500B12 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2A40B9183FB4B300500B12 /* Main_iPhone.storyboard */; };
+		1E2A40BE183FB4B300500B12 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2A40BC183FB4B300500B12 /* Main_iPad.storyboard */; };
+		1E2A40C1183FB4B300500B12 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A40C0183FB4B300500B12 /* MasterViewController.m */; };
+		1E2A40C4183FB4B300500B12 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A40C3183FB4B300500B12 /* DetailViewController.m */; };
+		1E2A40C6183FB4B300500B12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2A40C5183FB4B300500B12 /* Images.xcassets */; };
+		1E2A40CD183FB4B300500B12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2A40CC183FB4B300500B12 /* XCTest.framework */; };
+		1E2A40CE183FB4B300500B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2A40A7183FB4B300500B12 /* Foundation.framework */; };
+		1E2A40CF183FB4B300500B12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2A40AB183FB4B300500B12 /* UIKit.framework */; };
+		1E2A40D7183FB4B400500B12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E2A40D5183FB4B400500B12 /* InfoPlist.strings */; };
+		1E2A40D9183FB4B400500B12 /* footballmanagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A40D8183FB4B400500B12 /* footballmanagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E2A40D0183FB4B300500B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E2A409C183FB4B300500B12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2A40A3183FB4B300500B12;
+			remoteInfo = footballmanager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E2A40A4183FB4B300500B12 /* footballmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footballmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2A40A7183FB4B300500B12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E2A40A9183FB4B300500B12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E2A40AB183FB4B300500B12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E2A40AF183FB4B300500B12 /* footballmanager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "footballmanager-Info.plist"; sourceTree = "<group>"; };
+		1E2A40B1183FB4B300500B12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E2A40B3183FB4B300500B12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E2A40B5183FB4B300500B12 /* footballmanager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "footballmanager-Prefix.pch"; sourceTree = "<group>"; };
+		1E2A40B6183FB4B300500B12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E2A40B7183FB4B300500B12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E2A40BA183FB4B300500B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1E2A40BD183FB4B300500B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1E2A40BF183FB4B300500B12 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1E2A40C0183FB4B300500B12 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1E2A40C2183FB4B300500B12 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1E2A40C3183FB4B300500B12 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1E2A40C5183FB4B300500B12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E2A40CB183FB4B300500B12 /* footballmanagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = footballmanagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2A40CC183FB4B300500B12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1E2A40D4183FB4B400500B12 /* footballmanagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "footballmanagerTests-Info.plist"; sourceTree = "<group>"; };
+		1E2A40D6183FB4B400500B12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E2A40D8183FB4B400500B12 /* footballmanagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = footballmanagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E2A40A1183FB4B300500B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2A40AA183FB4B300500B12 /* CoreGraphics.framework in Frameworks */,
+				1E2A40AC183FB4B300500B12 /* UIKit.framework in Frameworks */,
+				1E2A40A8183FB4B300500B12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2A40C8183FB4B300500B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2A40CD183FB4B300500B12 /* XCTest.framework in Frameworks */,
+				1E2A40CF183FB4B300500B12 /* UIKit.framework in Frameworks */,
+				1E2A40CE183FB4B300500B12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E2A409B183FB4B300500B12 = {
+			isa = PBXGroup;
+			children = (
+				1E2A40AD183FB4B300500B12 /* footballmanager */,
+				1E2A40D2183FB4B300500B12 /* footballmanagerTests */,
+				1E2A40A6183FB4B300500B12 /* Frameworks */,
+				1E2A40A5183FB4B300500B12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E2A40A5183FB4B300500B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E2A40A4183FB4B300500B12 /* footballmanager.app */,
+				1E2A40CB183FB4B300500B12 /* footballmanagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E2A40A6183FB4B300500B12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E2A40A7183FB4B300500B12 /* Foundation.framework */,
+				1E2A40A9183FB4B300500B12 /* CoreGraphics.framework */,
+				1E2A40AB183FB4B300500B12 /* UIKit.framework */,
+				1E2A40CC183FB4B300500B12 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E2A40AD183FB4B300500B12 /* footballmanager */ = {
+			isa = PBXGroup;
+			children = (
+				1E2A40B6183FB4B300500B12 /* AppDelegate.h */,
+				1E2A40B7183FB4B300500B12 /* AppDelegate.m */,
+				1E2A40B9183FB4B300500B12 /* Main_iPhone.storyboard */,
+				1E2A40BC183FB4B300500B12 /* Main_iPad.storyboard */,
+				1E2A40BF183FB4B300500B12 /* MasterViewController.h */,
+				1E2A40C0183FB4B300500B12 /* MasterViewController.m */,
+				1E2A40C2183FB4B300500B12 /* DetailViewController.h */,
+				1E2A40C3183FB4B300500B12 /* DetailViewController.m */,
+				1E2A40C5183FB4B300500B12 /* Images.xcassets */,
+				1E2A40AE183FB4B300500B12 /* Supporting Files */,
+			);
+			path = footballmanager;
+			sourceTree = "<group>";
+		};
+		1E2A40AE183FB4B300500B12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E2A40AF183FB4B300500B12 /* footballmanager-Info.plist */,
+				1E2A40B0183FB4B300500B12 /* InfoPlist.strings */,
+				1E2A40B3183FB4B300500B12 /* main.m */,
+				1E2A40B5183FB4B300500B12 /* footballmanager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E2A40D2183FB4B300500B12 /* footballmanagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E2A40D8183FB4B400500B12 /* footballmanagerTests.m */,
+				1E2A40D3183FB4B400500B12 /* Supporting Files */,
+			);
+			path = footballmanagerTests;
+			sourceTree = "<group>";
+		};
+		1E2A40D3183FB4B400500B12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E2A40D4183FB4B400500B12 /* footballmanagerTests-Info.plist */,
+				1E2A40D5183FB4B400500B12 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E2A40A3183FB4B300500B12 /* footballmanager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2A40DC183FB4B400500B12 /* Build configuration list for PBXNativeTarget "footballmanager" */;
+			buildPhases = (
+				1E2A40A0183FB4B300500B12 /* Sources */,
+				1E2A40A1183FB4B300500B12 /* Frameworks */,
+				1E2A40A2183FB4B300500B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = footballmanager;
+			productName = footballmanager;
+			productReference = 1E2A40A4183FB4B300500B12 /* footballmanager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E2A40CA183FB4B300500B12 /* footballmanagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2A40DF183FB4B400500B12 /* Build configuration list for PBXNativeTarget "footballmanagerTests" */;
+			buildPhases = (
+				1E2A40C7183FB4B300500B12 /* Sources */,
+				1E2A40C8183FB4B300500B12 /* Frameworks */,
+				1E2A40C9183FB4B300500B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E2A40D1183FB4B300500B12 /* PBXTargetDependency */,
+			);
+			name = footballmanagerTests;
+			productName = footballmanagerTests;
+			productReference = 1E2A40CB183FB4B300500B12 /* footballmanagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E2A409C183FB4B300500B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shenhf;
+				TargetAttributes = {
+					1E2A40CA183FB4B300500B12 = {
+						TestTargetID = 1E2A40A3183FB4B300500B12;
+					};
+				};
+			};
+			buildConfigurationList = 1E2A409F183FB4B300500B12 /* Build configuration list for PBXProject "footballmanager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E2A409B183FB4B300500B12;
+			productRefGroup = 1E2A40A5183FB4B300500B12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E2A40A3183FB4B300500B12 /* footballmanager */,
+				1E2A40CA183FB4B300500B12 /* footballmanagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E2A40A2183FB4B300500B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2A40BE183FB4B300500B12 /* Main_iPad.storyboard in Resources */,
+				1E2A40C6183FB4B300500B12 /* Images.xcassets in Resources */,
+				1E2A40BB183FB4B300500B12 /* Main_iPhone.storyboard in Resources */,
+				1E2A40B2183FB4B300500B12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2A40C9183FB4B300500B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2A40D7183FB4B400500B12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2A40A0183FB4B300500B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2A40B8183FB4B300500B12 /* AppDelegate.m in Sources */,
+				1E2A40C1183FB4B300500B12 /* MasterViewController.m in Sources */,
+				1E2A40B4183FB4B300500B12 /* main.m in Sources */,
+				1E2A40C4183FB4B300500B12 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2A40C7183FB4B300500B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2A40D9183FB4B400500B12 /* footballmanagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E2A40D1183FB4B300500B12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2A40A3183FB4B300500B12 /* footballmanager */;
+			targetProxy = 1E2A40D0183FB4B300500B12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E2A40B0183FB4B300500B12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2A40B1183FB4B300500B12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E2A40B9183FB4B300500B12 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2A40BA183FB4B300500B12 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1E2A40BC183FB4B300500B12 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2A40BD183FB4B300500B12 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1E2A40D5183FB4B400500B12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2A40D6183FB4B400500B12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E2A40DA183FB4B400500B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E2A40DB183FB4B400500B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E2A40DD183FB4B400500B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "footballmanager/footballmanager-Prefix.pch";
+				INFOPLIST_FILE = "footballmanager/footballmanager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E2A40DE183FB4B400500B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "footballmanager/footballmanager-Prefix.pch";
+				INFOPLIST_FILE = "footballmanager/footballmanager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1E2A40E0183FB4B400500B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/footballmanager.app/footballmanager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "footballmanager/footballmanager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "footballmanagerTests/footballmanagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1E2A40E1183FB4B400500B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/footballmanager.app/footballmanager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "footballmanager/footballmanager-Prefix.pch";
+				INFOPLIST_FILE = "footballmanagerTests/footballmanagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E2A409F183FB4B300500B12 /* Build configuration list for PBXProject "footballmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2A40DA183FB4B400500B12 /* Debug */,
+				1E2A40DB183FB4B400500B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2A40DC183FB4B400500B12 /* Build configuration list for PBXNativeTarget "footballmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2A40DD183FB4B400500B12 /* Debug */,
+				1E2A40DE183FB4B400500B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E2A40DF183FB4B400500B12 /* Build configuration list for PBXNativeTarget "footballmanagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2A40E0183FB4B400500B12 /* Debug */,
+				1E2A40E1183FB4B400500B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E2A409C183FB4B300500B12 /* Project object */;
+}
